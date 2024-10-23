@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Imagem transform</title>
+        <style>
+            body {
+                background-color: rgba(67, 108, 160, 0.534);
+            } 
+        
+            .inicio {
+                background-color: gray;
+                color: white;
+            } 
+
+            .inicio:hover {
+                background-color: white;
+                color: gray;
+            }
+        
+            .fim {
+                background-color: greenyellow;
+            }
+
+            .galo {
+                transform: scale(0.2) rotate(360deg);
+                /*transition: all 2s*/;
+            }
+
+            .galo:hover {
+                transform: scale(0.7);
+            }
+
+        </style>
+    </head>
+    <body> 
+        <h1>MAIOR DE MINAS</h1>
+        
+        <p class="inicio">LUTAR, LUTAR, LUTAR... </p> 
+        <p class="fim"> HONRAMOS O NOME DE MINAS...</p>
+
+        <img src="escudo.png" 
+        alt="ESCUDO GALO" class="galo">
+    </body>
+</html>
